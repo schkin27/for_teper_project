@@ -1,0 +1,80 @@
+1623965487a:1:{s:14:"corruption.htm";a:9:{s:8:"fileName";s:14:"corruption.htm";s:7:"content";s:2077:"title = "Заяви о коррупции"
+url = "/corruption"
+layout = "default"
+is_hidden = 1
+==
+<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="tg-contactus tg-contactusvone">
+                    <div class="tg-titleborder">
+                        <h2>Заяви о коррупции</h2>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
+                            <form class="tg-formtheme tg-formcontactus">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="name" placeholder="Имя">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" placeholder="Номер телефона">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" placeholder="Комментарий"></textarea>
+                                    </div>
+                                    <button class="tg-btn" type="submit">Отправить</button>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!--************************************
+        Main End
+*************************************-->";s:5:"mtime";i:1612476565;s:6:"markup";s:1978:"<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="tg-contactus tg-contactusvone">
+                    <div class="tg-titleborder">
+                        <h2>Заяви о коррупции</h2>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
+                            <form class="tg-formtheme tg-formcontactus">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="name" placeholder="Имя">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" placeholder="Номер телефона">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" placeholder="Комментарий"></textarea>
+                                    </div>
+                                    <button class="tg-btn" type="submit">Отправить</button>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!--************************************
+        Main End
+*************************************-->";s:4:"code";N;s:5:"title";s:32:"Заяви о коррупции";s:3:"url";s:11:"/corruption";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"1";}}

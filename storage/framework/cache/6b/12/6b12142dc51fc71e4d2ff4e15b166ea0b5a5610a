@@ -1,0 +1,39 @@
+1623965488a:1:{s:10:"footer.htm";a:5:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:823:"<footer style = "height: 40px;">
+    <div class="tg-footerbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <span class="tg-copyright">
+                        {% component 'contenteditor' file = "index/footer_text.htm" fixture = "span" %}
+                    </span>
+                    <nav class="tg-addnav">
+                        <ul>
+                            <li><a href="http://www.genproc.gov.ru/">Генеральная Прокуратура РФ</a></li>
+                            <li><a href="https://youtouch.dev/">Разработчики сайта</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+";s:5:"mtime";i:1612465417;s:6:"markup";s:821:"<footer style = "height: 40px;">
+    <div class="tg-footerbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <span class="tg-copyright">
+                        {% component 'contenteditor' file = "index/footer_text.htm" fixture = "span" %}
+                    </span>
+                    <nav class="tg-addnav">
+                        <ul>
+                            <li><a href="http://www.genproc.gov.ru/">Генеральная Прокуратура РФ</a></li>
+                            <li><a href="https://youtouch.dev/">Разработчики сайта</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>";s:4:"code";N;}}

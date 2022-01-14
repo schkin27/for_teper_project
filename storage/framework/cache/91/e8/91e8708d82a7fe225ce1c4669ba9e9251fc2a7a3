@@ -1,0 +1,215 @@
+1623965487a:1:{s:11:"default.htm";a:7:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:5684:"description = "Основная страница"
+
+[SeoCmsPage]
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Прокуратура Заволжского района | {{ this.page.title }}</title>
+        <meta name="description" content="Официальный сайт Прокуратуры Заволжского района г.Ульяновска позволяет просматривать актуальные новости, создавать заявки для обращения в учреждение, а также скачивать специальные документы и распоряжения. Адрес: г.Ульяновск, ул. Мелекесская, д.4. Номер телефона: +7 (8422) 73-55-24.">
+        <meta name="title" content="{{ this.page.title }}">
+        <meta name="author" content="Прокуратура Заволжского района">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="Прокуратура Заволжского района">
+        
+        <meta name="google-site-verification" content="hEiuAjd37idbIfeuP3YKu0oPWR9VjPiFxtzLkkR7gDo" />
+        
+        <meta name="yandex-verification" content="70f9be6a7f381d00" />
+
+        <meta property="og:locale" content="ru_RU">
+        <meta property="og:image" content="https://zavproc.ru/storage/app/media/icon.png">
+        <meta property="og:image:width" content="300">
+        <meta property="og:image:height" content="48">
+
+        <meta name="twitter:image:src" content="https://zavproc.ru/storage/app/media/icon.png">
+
+        <link rel="icon" type="image/png" href="{{ 'assets/images/icon.png'|theme }}">
+
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+        ym(71938681, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true
+        });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/71938681" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+
+
+        
+        {% component 'SeoCmsPage' %}
+
+        <!-- Button visually impaired CSS -->
+        {% styles %}
+        
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+        <link rel="stylesheet" href="{{ 'assets/css/bvi.min.css'|theme }}" type="text/css">
+
+        <link rel="stylesheet" href="{{ 'assets/css/bootstrap.min.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/normalize.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/font-awesome.min.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/icomoon.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/animate.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/prettyPhoto.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/owl.carousel.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/owl.theme.default.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/transitions.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/main.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/color.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/responsive.css'|theme }}">
+        <script src="{{ 'assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js'|theme }}"></script>
+        
+        {% framework %}
+        
+
+    </head>
+    <body>
+        <div style="min-height: calc(100vh - 40px);">
+        <!-- Header -->
+            {% partial 'header' %}
+
+        
+        
+        <!-- Content -->
+            {% page %}
+        
+        </div></div>
+
+        <!-- Footer -->
+            {% partial 'footer' %}
+
+        <!-- Scripts -->
+        {% scripts %}
+        <script src="{{'assets/js/js.cookie.js'|theme }}"></script>
+        <script src="{{'assets/js/bvi-init.js'|theme }}"></script>
+        <script src="{{'assets/js/bvi.min.js'|theme }}"></script>
+        <script src="{{'assets/js/vendor/jquery-library.js'|theme }}"></script>
+        <script src="{{'assets/js/vendor/bootstrap.min.js'|theme }}"></script>
+        <script src="{{'assets/js/mapclustering/data.json'|theme }}"></script>
+        <script src="https://maps.google.com/maps/api/js?key=AIzaSyCR-KEWAVCn52mSdeVeTqZjtqbmVJyfSus&amp;language=en"></script>
+        <script src="{{'assets/js/mapclustering/markerclusterer.min.js'|theme }}"></script>
+        <script src="{{'assets/js/mapclustering/infobox.js'|theme }}"></script>
+        <script src="{{'assets/js/mapclustering/map.js'|theme }}"></script>
+        <script src="{{'assets/js/owl.carousel.min.js'|theme }}"></script>
+        <script src="{{'assets/js/isotope.pkgd.js'|theme }}"></script>
+        <script src="{{'assets/js/prettyPhoto.js'|theme }}"></script>
+        <script src="{{'assets/js/countdown.js'|theme }}"></script>
+        <script src="{{'assets/js/collapse.js'|theme }}"></script>
+        <script src="{{'assets/js/moment.js'|theme }}"></script>
+        <script src="{{'assets/js/gmap3.js'|theme }}"></script>
+        <script src="{{'assets/js/main.js'|theme }}"></script>
+
+    </body>
+</html>";s:5:"mtime";i:1615287006;s:6:"markup";s:5617:"<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Прокуратура Заволжского района | {{ this.page.title }}</title>
+        <meta name="description" content="Официальный сайт Прокуратуры Заволжского района г.Ульяновска позволяет просматривать актуальные новости, создавать заявки для обращения в учреждение, а также скачивать специальные документы и распоряжения. Адрес: г.Ульяновск, ул. Мелекесская, д.4. Номер телефона: +7 (8422) 73-55-24.">
+        <meta name="title" content="{{ this.page.title }}">
+        <meta name="author" content="Прокуратура Заволжского района">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="Прокуратура Заволжского района">
+        
+        <meta name="google-site-verification" content="hEiuAjd37idbIfeuP3YKu0oPWR9VjPiFxtzLkkR7gDo" />
+        
+        <meta name="yandex-verification" content="70f9be6a7f381d00" />
+
+        <meta property="og:locale" content="ru_RU">
+        <meta property="og:image" content="https://zavproc.ru/storage/app/media/icon.png">
+        <meta property="og:image:width" content="300">
+        <meta property="og:image:height" content="48">
+
+        <meta name="twitter:image:src" content="https://zavproc.ru/storage/app/media/icon.png">
+
+        <link rel="icon" type="image/png" href="{{ 'assets/images/icon.png'|theme }}">
+
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+        ym(71938681, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true
+        });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/71938681" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+
+
+        
+        {% component 'SeoCmsPage' %}
+
+        <!-- Button visually impaired CSS -->
+        {% styles %}
+        
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+        <link rel="stylesheet" href="{{ 'assets/css/bvi.min.css'|theme }}" type="text/css">
+
+        <link rel="stylesheet" href="{{ 'assets/css/bootstrap.min.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/normalize.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/font-awesome.min.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/icomoon.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/animate.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/prettyPhoto.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/owl.carousel.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/owl.theme.default.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/transitions.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/main.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/color.css'|theme }}">
+        <link rel="stylesheet" href="{{ 'assets/css/responsive.css'|theme }}">
+        <script src="{{ 'assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js'|theme }}"></script>
+        
+        {% framework %}
+        
+
+    </head>
+    <body>
+        <div style="min-height: calc(100vh - 40px);">
+        <!-- Header -->
+            {% partial 'header' %}
+
+        
+        
+        <!-- Content -->
+            {% page %}
+        
+        </div></div>
+
+        <!-- Footer -->
+            {% partial 'footer' %}
+
+        <!-- Scripts -->
+        {% scripts %}
+        <script src="{{'assets/js/js.cookie.js'|theme }}"></script>
+        <script src="{{'assets/js/bvi-init.js'|theme }}"></script>
+        <script src="{{'assets/js/bvi.min.js'|theme }}"></script>
+        <script src="{{'assets/js/vendor/jquery-library.js'|theme }}"></script>
+        <script src="{{'assets/js/vendor/bootstrap.min.js'|theme }}"></script>
+        <script src="{{'assets/js/mapclustering/data.json'|theme }}"></script>
+        <script src="https://maps.google.com/maps/api/js?key=AIzaSyCR-KEWAVCn52mSdeVeTqZjtqbmVJyfSus&amp;language=en"></script>
+        <script src="{{'assets/js/mapclustering/markerclusterer.min.js'|theme }}"></script>
+        <script src="{{'assets/js/mapclustering/infobox.js'|theme }}"></script>
+        <script src="{{'assets/js/mapclustering/map.js'|theme }}"></script>
+        <script src="{{'assets/js/owl.carousel.min.js'|theme }}"></script>
+        <script src="{{'assets/js/isotope.pkgd.js'|theme }}"></script>
+        <script src="{{'assets/js/prettyPhoto.js'|theme }}"></script>
+        <script src="{{'assets/js/countdown.js'|theme }}"></script>
+        <script src="{{'assets/js/collapse.js'|theme }}"></script>
+        <script src="{{'assets/js/moment.js'|theme }}"></script>
+        <script src="{{'assets/js/gmap3.js'|theme }}"></script>
+        <script src="{{'assets/js/main.js'|theme }}"></script>
+
+    </body>
+</html>";s:4:"code";N;s:11:"description";s:33:"Основная страница";s:10:"SeoCmsPage";a:0:{}}}

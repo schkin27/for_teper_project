@@ -1,0 +1,110 @@
+title = "Новости"
+url = "/blog/category/:slug"
+layout = "default"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[blogPosts News]
+pageNumber = 1
+postsPerPage = 15
+categoryFilter = "{{ :slug }}"
+noPostsMessage = "Записей не найдено"
+sortOrder = "published_at desc"
+categoryPage = "blog/category"
+postPage = "blog/post"
+==
+<?php
+
+function onLoadMore() {
+    // получаем номер страницы
+    $pageNumber = Input::get('page') + 1;
+
+
+    // обращаемся к компоненту Posts с alias allPosts: 
+    // выставляем номер страницы и готовим данные
+    $this->components['News']->setProperty('pageNumber', $pageNumber);
+    
+    $this->components['News']->onRun();
+
+    $cn = $this->components['News']->posts->total();
+    
+    if ($pageNumber < $this->components['News']->posts->lastPage()) {
+        // для простоты мы генерируем html, но в принципе можно сделать и отдельный паршл для кнопки
+        $more_link = '<a class="tg-btn" style="float:none;" data-request="onLoadMore" data-request-data="page: ' . $pageNumber . '" href="#">Загрузить еще 15 новостей</a>';
+    } else {
+        // если мы достигли последней страницы, кнопка больше не нужна
+        $more_link = '<div class="tg-btn" style="float:none; background:gray; color:white;">Показаны все '.$cn.' новости</div>';
+    }
+    
+    return [
+        // если перед селектором стоит @, новое содержимое будет добавляться в конец, а не заменять старое
+        '@#news-id' => $this->components['News']->renderPartial('cat.htm'),
+        '#load-more-button' => $more_link,
+    ];
+}
+
+function onEnd()
+{
+        if ($this->category)
+        $this->page->title = $this->category->name;
+
+        $this['count_posts'] = $cn = $this->components['News']->posts->total();
+}
+
+
+function onStart()
+{
+}
+
+?>
+==
+{% set posts = News.posts %}
+
+<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div id="tg-twocolumns" class="tg-twocolumns">
+                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9 pull-right">
+                    <div id="tg-content" class="tg-content">
+                        <div class="tg-titleborder">
+                            {% if category.name %}
+                            <h2>{{ category.name }}</h2>
+                            {% else %}
+                            <h2>Новости</h2>
+                            {% endif %}
+                        </div>
+                        {% if count_posts == 0 %}
+                        <div style ="padding: 50px;" class="tg-errorcontent">
+                            <div class="col-sm-10 col-sm-offset-1">
+                                <div class="tg-description">
+                                    <p>Кажется в разделе {{ category.name }} <b>не содержится новостей</b></p>
+                                </div>
+                                <div class="tg-description">
+                                    <p>Но всегда можно вернуться <a href="/">главную страницу</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                        <div class="tg-newsandarticle tg-grid">
+                            <div id = "news-id" class="row">
+                                {% partial 'cat.htm' %}
+                            </div>
+                        </div>
+                        
+                        {% if count_posts > 15 %}
+                        <nav class="tg-pagination">
+                            <ul>
+                                <DIV class="tg-btnsbox" id="load-more-button">
+                                    <A class="tg-btn" style="float:none;" data-request="onLoadMore" data-request-data="page: 1" href="#">Загрузить еще 15 новостей</A>
+                                </DIV>
+                            </ul>
+                        </nav>
+                        {% endif %}
+                    </div>
+                </div>
+                {% partial 'sidebar_left.htm' %}
+            </div>
+        </div>
+    </div>
+</main>

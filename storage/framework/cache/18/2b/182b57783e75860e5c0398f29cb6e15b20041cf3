@@ -1,0 +1,159 @@
+1623965487a:1:{s:11:"contact.htm";a:10:{s:8:"fileName";s:11:"contact.htm";s:7:"content";s:5246:"title = "Контактная информация"
+url = "/contact"
+layout = "default"
+is_hidden = 0
+
+[contenteditor]
+
+==
+
+
+<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="tg-contactus tg-contactusvone">
+                    <div class="tg-titleborder">
+                        <h2>Связаться с нами</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-7 col-lg-8">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2325.953122830502!2d48.560971115922186!3d54.340136680199365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415d38c0755a066b%3A0x544ed224c60fb5ff!2z0JzQtdC70LXQutC10YHRgdC60LDRjyDRg9C7LiwgNCwg0KPQu9GM0Y_QvdC-0LLRgdC6LCDQo9C70YzRj9C90L7QstGB0LrQsNGPINC-0LHQuy4sIDQzMjA0Ng!5e0!3m2!1sru!2sru!4v1612470225333!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            <!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa0b7766fd6e23a2b6adf831603579923b6d2731966ac3c06b6a2c5126ce4b40a&amp;source=constructor" width="708" height="422" frameborder="0"></iframe> -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
+                            <!-- <form class="tg-formtheme tg-formcontactus">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="name" placeholder="Имя">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" placeholder="Номер телефона">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" placeholder="Комментарий"></textarea>
+                                    </div>
+                                    <button class="tg-btn" type="submit">Отправить</button>
+                                </fieldset>
+                            </form> -->
+
+                            <div class="tg-widget tg-widgetadmissionform">
+                                <div class="tg-widgetcontent">
+                                    {% component 'contenteditor' file = "index/contacts_title.htm" fixture = "h3" %}
+                                    <div class="tg-description">
+                                        <span>
+                                            <i class="icon-phone-handset"> </i><b>Телефон:</b>
+                                            {% component 'contenteditor' file = "index/contacts_phone.htm" fixture = "span" %}
+                                        </br>
+                                        </span>
+                                        <span>
+                                            <i class="icon-printer"> </i><b>Факс: </b>
+                                            {% component 'contenteditor' file = "index/contacts_fax.htm" fixture = "span" %}
+                                        </br>
+                                        </span>
+                                        <span>
+                                            <i class="icon-location"> </i><b>Адрес: </b>
+                                            {% component 'contenteditor' file = "index/contacts_adress.htm" fixture = "span" %}
+                                        </br>
+                                        </span>
+                                        <span>
+                                            <i class="icon-envelope"> </i><b>Skype: </b>
+                                            {% component 'contenteditor' file = "index/contacts_skype.htm" fixture = "span" %}
+                                        </span>
+                                    
+                                    </div>
+                                    
+                                    <a class="tg-btn tg-btnicon" href="mailto:zav@ulproc.ru" style="margin-top: 20px;">
+                                        <i class="icon-envelope"></i>
+                                        <span>Написать письмо</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!--************************************
+        Main End
+*************************************-->";s:5:"mtime";i:1612714254;s:6:"markup";s:5111:"<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="tg-contactus tg-contactusvone">
+                    <div class="tg-titleborder">
+                        <h2>Связаться с нами</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-7 col-lg-8">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2325.953122830502!2d48.560971115922186!3d54.340136680199365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415d38c0755a066b%3A0x544ed224c60fb5ff!2z0JzQtdC70LXQutC10YHRgdC60LDRjyDRg9C7LiwgNCwg0KPQu9GM0Y_QvdC-0LLRgdC6LCDQo9C70YzRj9C90L7QstGB0LrQsNGPINC-0LHQuy4sIDQzMjA0Ng!5e0!3m2!1sru!2sru!4v1612470225333!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            <!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa0b7766fd6e23a2b6adf831603579923b6d2731966ac3c06b6a2c5126ce4b40a&amp;source=constructor" width="708" height="422" frameborder="0"></iframe> -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4">
+                            <!-- <form class="tg-formtheme tg-formcontactus">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="name" placeholder="Имя">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="subject" placeholder="Номер телефона">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" placeholder="Комментарий"></textarea>
+                                    </div>
+                                    <button class="tg-btn" type="submit">Отправить</button>
+                                </fieldset>
+                            </form> -->
+
+                            <div class="tg-widget tg-widgetadmissionform">
+                                <div class="tg-widgetcontent">
+                                    {% component 'contenteditor' file = "index/contacts_title.htm" fixture = "h3" %}
+                                    <div class="tg-description">
+                                        <span>
+                                            <i class="icon-phone-handset"> </i><b>Телефон:</b>
+                                            {% component 'contenteditor' file = "index/contacts_phone.htm" fixture = "span" %}
+                                        </br>
+                                        </span>
+                                        <span>
+                                            <i class="icon-printer"> </i><b>Факс: </b>
+                                            {% component 'contenteditor' file = "index/contacts_fax.htm" fixture = "span" %}
+                                        </br>
+                                        </span>
+                                        <span>
+                                            <i class="icon-location"> </i><b>Адрес: </b>
+                                            {% component 'contenteditor' file = "index/contacts_adress.htm" fixture = "span" %}
+                                        </br>
+                                        </span>
+                                        <span>
+                                            <i class="icon-envelope"> </i><b>Skype: </b>
+                                            {% component 'contenteditor' file = "index/contacts_skype.htm" fixture = "span" %}
+                                        </span>
+                                    
+                                    </div>
+                                    
+                                    <a class="tg-btn tg-btnicon" href="mailto:zav@ulproc.ru" style="margin-top: 20px;">
+                                        <i class="icon-envelope"></i>
+                                        <span>Написать письмо</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!--************************************
+        Main End
+*************************************-->";s:4:"code";N;s:5:"title";s:41:"Контактная информация";s:3:"url";s:8:"/contact";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:13:"contenteditor";a:0:{}}}

@@ -1,0 +1,36 @@
+1623958373a:1:{s:11:"sidebar.htm";a:6:{s:8:"fileName";s:11:"sidebar.htm";s:7:"content";s:721:"==
+<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+    <aside id="tg-sidebar" class="tg-sidebar">
+        
+        <div class="tg-widget tg-widgetnoticeboard">
+            <div class="tg-widgettitle">
+                <h3>Главный прокурор</h3>
+            </div>
+            <div class="tg-widgetcontent">
+                <ul>
+                    <p style="text-align: center;">
+                        <img src="{{'assets/images/procuror.jpg'|theme}}">
+                    </p>
+                    <p style="text-align: center;"> <b>Подвинский Александр</br>Вячеславович</b></p>
+                </ul>
+            </div>
+        </div>
+    </aside>
+</div>";s:5:"mtime";i:1612393719;s:6:"markup";s:717:"<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+    <aside id="tg-sidebar" class="tg-sidebar">
+        
+        <div class="tg-widget tg-widgetnoticeboard">
+            <div class="tg-widgettitle">
+                <h3>Главный прокурор</h3>
+            </div>
+            <div class="tg-widgetcontent">
+                <ul>
+                    <p style="text-align: center;">
+                        <img src="{{'assets/images/procuror.jpg'|theme}}">
+                    </p>
+                    <p style="text-align: center;"> <b>Подвинский Александр</br>Вячеславович</b></p>
+                </ul>
+            </div>
+        </div>
+    </aside>
+</div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

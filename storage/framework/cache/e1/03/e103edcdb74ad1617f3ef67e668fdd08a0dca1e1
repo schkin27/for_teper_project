@@ -1,0 +1,104 @@
+1623965488a:1:{s:16:"sidebar_left.htm";a:7:{s:8:"fileName";s:16:"sidebar_left.htm";s:7:"content";s:2432:"[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 1
+categoryPage = "blog/category"
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 3
+noPostsMessage = "Записей не найдено"
+sortOrder = "published_at desc"
+categoryPage = "blog/category"
+postPage = "blog/post"
+==
+{% set posts = blogPosts.posts %}
+
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 pull-left">
+    <aside id="tg-sidebar" class="tg-sidebar">
+        <div class="tg-widget tg-widgetlatestcourses">
+            <div class="tg-widgettitle">
+                <h3>Последние новости</h3>
+            </div>
+            <div class="tg-widgetcontent">
+                {% for post in posts %}
+                <article class="tg-campus tg-campusleftthumb">
+                    <figure class="tg-featuredimg">
+                        <a href="{{ post.url }}">
+                            {% if post.featured_images|slice(0,1) == true %}
+                                {% for image in post.featured_images|slice(0,1) %}
+                                    <img src="{{ image.path }}" alt="image description" style="width: 70px; height: 70px; object-fit: cover;">
+                                {% endfor %}
+                            {% else %}
+                                <img src="{{'assets/images/noimage.jpg'|theme}}" alt=" " style="width: 70px; height: 70px; object-fit: cover;">
+                            {% endif %}
+                        </a>
+                    </figure>
+                    <div class="tg-campuscontent">
+                        <div class="tg-datetime">
+                            <i class="fa fa-calendar"></i>
+                            <span>{{ post.published_at|date ('d F Y', 'Europe/Ulyanovsk') }}</span>
+                        </div>
+                        <div class="tg-campustitle">
+                            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                        </div>
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="tg-widget tg-widgetcoursecategories">
+            <div class="tg-widgettitle">
+                <h3>Категории</h3>
+            </div>
+            <div class="tg-widgetcontent">
+                    {% component 'blogCategories' %}
+                   
+            </div>
+        </div>
+    </aside>
+</div>";s:5:"mtime";i:1623518221;s:6:"markup";s:2146:"{% set posts = blogPosts.posts %}
+
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 pull-left">
+    <aside id="tg-sidebar" class="tg-sidebar">
+        <div class="tg-widget tg-widgetlatestcourses">
+            <div class="tg-widgettitle">
+                <h3>Последние новости</h3>
+            </div>
+            <div class="tg-widgetcontent">
+                {% for post in posts %}
+                <article class="tg-campus tg-campusleftthumb">
+                    <figure class="tg-featuredimg">
+                        <a href="{{ post.url }}">
+                            {% if post.featured_images|slice(0,1) == true %}
+                                {% for image in post.featured_images|slice(0,1) %}
+                                    <img src="{{ image.path }}" alt="image description" style="width: 70px; height: 70px; object-fit: cover;">
+                                {% endfor %}
+                            {% else %}
+                                <img src="{{'assets/images/noimage.jpg'|theme}}" alt=" " style="width: 70px; height: 70px; object-fit: cover;">
+                            {% endif %}
+                        </a>
+                    </figure>
+                    <div class="tg-campuscontent">
+                        <div class="tg-datetime">
+                            <i class="fa fa-calendar"></i>
+                            <span>{{ post.published_at|date ('d F Y', 'Europe/Ulyanovsk') }}</span>
+                        </div>
+                        <div class="tg-campustitle">
+                            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                        </div>
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="tg-widget tg-widgetcoursecategories">
+            <div class="tg-widgettitle">
+                <h3>Категории</h3>
+            </div>
+            <div class="tg-widgetcontent">
+                    {% component 'blogCategories' %}
+                   
+            </div>
+        </div>
+    </aside>
+</div>";s:4:"code";N;s:14:"blogCategories";a:3:{s:4:"slug";s:11:"{{ :slug }}";s:12:"displayEmpty";s:1:"1";s:12:"categoryPage";s:13:"blog/category";}s:9:"blogPosts";a:6:{s:10:"pageNumber";s:11:"{{ :page }}";s:12:"postsPerPage";s:1:"3";s:14:"noPostsMessage";s:34:"Записей не найдено";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:13:"blog/category";s:8:"postPage";s:9:"blog/post";}}}

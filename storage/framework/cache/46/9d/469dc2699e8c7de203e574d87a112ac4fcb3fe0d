@@ -1,0 +1,161 @@
+1623965487a:1:{s:13:"blog/post.htm";a:13:{s:8:"fileName";s:13:"blog/post.htm";s:7:"content";s:3573:"title = "{{post.title}}"
+url = "/blog/post/:slug"
+layout = "default"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "blog/category"
+
+[SeoBlogPost]
+post = "post"
+==
+<?php
+function onEnd()
+{
+        if ($this->post)
+        $this->page->title = $this->post->title;
+}
+?>
+==
+{% component 'SeoBlogPost' data=post %}
+
+<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div id="tg-twocolumns" class="tg-twocolumns">
+                <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 pull-right">
+                    <div id="tg-content" class="tg-content">
+                        <div class="tg-detailpage tg-newsdetailpage">
+                            <article class="tg-themepost tg-newspost">
+                                <div class="tg-themepostcontent">
+                                    <div class="tg-themeposttitle">
+                                        <h1><b>{{ post.title }}</b></h1>
+                                    </div>
+
+                                    <ul class="tg-themepostinfo">
+                                        <li>
+                                            <div class="tg-infodata">
+                                                <p>{{ post.published_at|date ('d M Y', 'Europe/Ulyanovsk') }}</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tg-infodata">
+                                                {% if post.views !=2 %}
+                                                <p><b>Посмотрели: </b> {{ post.views }} раз</p>
+                                                {% else %}
+                                                <p><b>Посмотрели: </b> {{ post.views }} раза</p>
+                                                {% endif %}
+                                                
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tg-infodata">
+                                                <p><b>Категория: </b>
+                                                {% for cat in post.categories %}
+                                                {{cat.name}}
+                                                {%endfor %}</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <figure class="tg-featuredimg">
+                                {% for image in post.featured_images|slice(0,1) %}
+                                <img src="{{ image.path }}" alt="{{ post.title }}" style="width: 100%; height: 300px; object-fit: cover;">
+                                {% endfor %}
+                                </figure>
+                                
+                                {{ post.content_html|raw }}
+
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                {% partial 'sidebar_left.htm' %}
+
+
+            </div>
+        </div>
+    </div>
+</main>
+<!--************************************
+        Main End
+*************************************-->";s:5:"mtime";i:1615561104;s:6:"markup";s:3237:"{% component 'SeoBlogPost' data=post %}
+
+<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div id="tg-twocolumns" class="tg-twocolumns">
+                <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 pull-right">
+                    <div id="tg-content" class="tg-content">
+                        <div class="tg-detailpage tg-newsdetailpage">
+                            <article class="tg-themepost tg-newspost">
+                                <div class="tg-themepostcontent">
+                                    <div class="tg-themeposttitle">
+                                        <h1><b>{{ post.title }}</b></h1>
+                                    </div>
+
+                                    <ul class="tg-themepostinfo">
+                                        <li>
+                                            <div class="tg-infodata">
+                                                <p>{{ post.published_at|date ('d M Y', 'Europe/Ulyanovsk') }}</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tg-infodata">
+                                                {% if post.views !=2 %}
+                                                <p><b>Посмотрели: </b> {{ post.views }} раз</p>
+                                                {% else %}
+                                                <p><b>Посмотрели: </b> {{ post.views }} раза</p>
+                                                {% endif %}
+                                                
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tg-infodata">
+                                                <p><b>Категория: </b>
+                                                {% for cat in post.categories %}
+                                                {{cat.name}}
+                                                {%endfor %}</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <figure class="tg-featuredimg">
+                                {% for image in post.featured_images|slice(0,1) %}
+                                <img src="{{ image.path }}" alt="{{ post.title }}" style="width: 100%; height: 300px; object-fit: cover;">
+                                {% endfor %}
+                                </figure>
+                                
+                                {{ post.content_html|raw }}
+
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                {% partial 'sidebar_left.htm' %}
+
+
+            </div>
+        </div>
+    </div>
+</main>
+<!--************************************
+        Main End
+*************************************-->";s:4:"code";s:98:"function onEnd()
+{
+        if ($this->post)
+        $this->page->title = $this->post->title;
+}";s:5:"title";s:14:"{{post.title}}";s:3:"url";s:16:"/blog/post/:slug";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:8:"blogPost";a:2:{s:4:"slug";s:11:"{{ :slug }}";s:12:"categoryPage";s:13:"blog/category";}s:11:"SeoBlogPost";a:1:{s:4:"post";s:4:"post";}}}

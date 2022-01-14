@@ -1,0 +1,251 @@
+1623965487a:1:{s:13:"documents.htm";a:9:{s:8:"fileName";s:13:"documents.htm";s:7:"content";s:7357:"title = "Документы"
+url = "/documents"
+layout = "default"
+is_hidden = 0
+==
+
+<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div class="tg-newsandarticle tg-grid">
+                <div class="tg-titleborder">
+                    <h2>Документы</h2>
+                </div>
+                <div class="row">
+                                      
+                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                        <article class="tg-themepost tg-newspost">
+                            <figure class="tg-featuredimg">
+                                <a href="https://zavproc.ru/storage/app/media/documents/u-codeks.pdf">
+                                    <img src="{{'assets/images/documents/1.jpg'|theme}}" alt=" " style="width: 100%; height: 540px; object-fit: cover;">
+                                </a>
+                            </figure>
+                            <div class="tg-themepostcontent">
+                                <div class="tg-themeposttitle">
+                                    <h3><a href="https://zavproc.ru/storage/app/media/documents/u-codeks.pdf">Уголовно-процессуальный кодекс</a></h3>
+                                </div>
+                                <div class="tg-description">
+                                    <form action="https://zavproc.ru/storage/app/media/documents/u-codeks.pdf" target="_blank">
+                                        <button class="tg-btn">Скачать</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                        <article class="tg-themepost tg-newspost">
+                            <figure class="tg-featuredimg">
+                                <a href="https://zavproc.ru/storage/app/media/documents/uk-rf.pdf">
+                                    <img src="{{'assets/images/documents/2.jpg'|theme}}" alt=" " style="width: 100%; height: 540px; object-fit: cover;">
+                                </a>
+                            </figure>
+                            <div class="tg-themepostcontent">
+                                <div class="tg-themeposttitle">
+                                    <h3><a href="https://zavproc.ru/storage/app/media/documents/uk-rf.pdf">Уголовный кодекс</a></h3>
+                                </div>
+                                <div class="tg-description">
+                                    <form action="https://zavproc.ru/storage/app/media/documents/uk-rf.pdf" target="_blank">
+                                        <button class="tg-btn">Скачать</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                        <article class="tg-themepost tg-newspost">
+                            <figure class="tg-featuredimg">
+                                <a href="https://zavproc.ru/storage/app/media/documents/fz.pdf">
+                                    <img src="{{'assets/images/documents/3.jpg'|theme}}" alt=" " style="width: 100%; height: 540px; object-fit: cover;">
+                                </a>
+                            </figure>
+                            <div class="tg-themepostcontent">
+                                <div class="tg-themeposttitle">
+                                    <h3><a href="https://zavproc.ru/storage/app/media/documents/fz.pdf">ФЗ о Прокуратуре РФ</a></h3>
+                                </div>
+                                <div class="tg-description">
+                                    <form action="https://zavproc.ru/storage/app/media/documents/fz.pdf" target="_blank">
+                                        <button class="tg-btn">Скачать</button>
+                                    </form>
+                                </div>
+                                
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                        <article class="tg-themepost tg-newspost">
+                            <figure class="tg-featuredimg">
+                                <a href="https://zavproc.ru/storage/app/media/documents/gp-codeks.pdf">
+                                    <img src="{{'assets/images/documents/4.jpg'|theme}}" alt=" " style="width: 100%; height: 540px; object-fit: cover;">
+                                </a>
+                            </figure>
+                            <div class="tg-themepostcontent">
+                                <div class="tg-themeposttitle">
+                                    <h3><a href="https://zavproc.ru/storage/app/media/documents/gp-codeks.pdf">Гражданский процессуальный кодекс</a></h3>
+                                </div>
+                                <div class="tg-description">
+                                    <form action="https://zavproc.ru/storage/app/media/documents/gp-codeks.pdf" target="_blank">
+                                        <button class="tg-btn">Скачать</button>
+                                    </form>
+                                </div>
+                                
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                        <article class="tg-themepost tg-newspost">
+                            
+                            <figure class="tg-featuredimg">
+                                <a href="https://zavproc.ru/storage/app/media/documents/const.pdf">
+                                    <img src="{{'assets/images/documents/5.jpg'|theme}}" alt=" " style="width: 100%; height: 540px; object-fit: cover;">
+                                </a>
+                            </figure>
+                            
+                            <div class="tg-themepostcontent">
+                                <div class="tg-themeposttitle">
+                                    <h3><a href="https://zavproc.ru/storage/app/media/documents/const.pdf">Конституция РФ</a></h3>
+                                </div>
+                                <div class="tg-description">
+                                    <form action="https://zavproc.ru/storage/app/media/documents/const.pdf" target="_blank">
+                                        <button class="tg-btn">Скачать</button>
+                                    </form>
+                                </div>
+                                
+                            </div>
+                        </article>
+                    </div>
+                    
+
+                </div>
+            </div>
+
+            
+
+        </div>
+    </div>
+</main>";s:5:"mtime";i:1612481653;s:6:"markup";s:7266:"<main id="tg-main" class="tg-main tg-haslayout">
+    <div class="container">
+        <div class="row">
+            <div class="tg-newsandarticle tg-grid">
+                <div class="tg-titleborder">
+                    <h2>Документы</h2>
+                </div>
+                <div class="row">
+                                      
+                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                        <article class="tg-themepost tg-newspost">
+                            <figure class="tg-featuredimg">
+                                <a href="https://zavproc.ru/storage/app/media/documents/u-codeks.pdf">
+                                    <img src="{{'assets/images/documents/1.jpg'|theme}}" alt=" " style="width: 100%; height: 540px; object-fit: cover;">
+                                </a>
+                            </figure>
+                            <div class="tg-themepostcontent">
+                                <div class="tg-themeposttitle">
+                                    <h3><a href="https://zavproc.ru/storage/app/media/documents/u-codeks.pdf">Уголовно-процессуальный кодекс</a></h3>
+                                </div>
+                                <div class="tg-description">
+                                    <form action="https://zavproc.ru/storage/app/media/documents/u-codeks.pdf" target="_blank">
+                                        <button class="tg-btn">Скачать</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                        <article class="tg-themepost tg-newspost">
+                            <figure class="tg-featuredimg">
+                                <a href="https://zavproc.ru/storage/app/media/documents/uk-rf.pdf">
+                                    <img src="{{'assets/images/documents/2.jpg'|theme}}" alt=" " style="width: 100%; height: 540px; object-fit: cover;">
+                                </a>
+                            </figure>
+                            <div class="tg-themepostcontent">
+                                <div class="tg-themeposttitle">
+                                    <h3><a href="https://zavproc.ru/storage/app/media/documents/uk-rf.pdf">Уголовный кодекс</a></h3>
+                                </div>
+                                <div class="tg-description">
+                                    <form action="https://zavproc.ru/storage/app/media/documents/uk-rf.pdf" target="_blank">
+                                        <button class="tg-btn">Скачать</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                        <article class="tg-themepost tg-newspost">
+                            <figure class="tg-featuredimg">
+                                <a href="https://zavproc.ru/storage/app/media/documents/fz.pdf">
+                                    <img src="{{'assets/images/documents/3.jpg'|theme}}" alt=" " style="width: 100%; height: 540px; object-fit: cover;">
+                                </a>
+                            </figure>
+                            <div class="tg-themepostcontent">
+                                <div class="tg-themeposttitle">
+                                    <h3><a href="https://zavproc.ru/storage/app/media/documents/fz.pdf">ФЗ о Прокуратуре РФ</a></h3>
+                                </div>
+                                <div class="tg-description">
+                                    <form action="https://zavproc.ru/storage/app/media/documents/fz.pdf" target="_blank">
+                                        <button class="tg-btn">Скачать</button>
+                                    </form>
+                                </div>
+                                
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                        <article class="tg-themepost tg-newspost">
+                            <figure class="tg-featuredimg">
+                                <a href="https://zavproc.ru/storage/app/media/documents/gp-codeks.pdf">
+                                    <img src="{{'assets/images/documents/4.jpg'|theme}}" alt=" " style="width: 100%; height: 540px; object-fit: cover;">
+                                </a>
+                            </figure>
+                            <div class="tg-themepostcontent">
+                                <div class="tg-themeposttitle">
+                                    <h3><a href="https://zavproc.ru/storage/app/media/documents/gp-codeks.pdf">Гражданский процессуальный кодекс</a></h3>
+                                </div>
+                                <div class="tg-description">
+                                    <form action="https://zavproc.ru/storage/app/media/documents/gp-codeks.pdf" target="_blank">
+                                        <button class="tg-btn">Скачать</button>
+                                    </form>
+                                </div>
+                                
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                        <article class="tg-themepost tg-newspost">
+                            
+                            <figure class="tg-featuredimg">
+                                <a href="https://zavproc.ru/storage/app/media/documents/const.pdf">
+                                    <img src="{{'assets/images/documents/5.jpg'|theme}}" alt=" " style="width: 100%; height: 540px; object-fit: cover;">
+                                </a>
+                            </figure>
+                            
+                            <div class="tg-themepostcontent">
+                                <div class="tg-themeposttitle">
+                                    <h3><a href="https://zavproc.ru/storage/app/media/documents/const.pdf">Конституция РФ</a></h3>
+                                </div>
+                                <div class="tg-description">
+                                    <form action="https://zavproc.ru/storage/app/media/documents/const.pdf" target="_blank">
+                                        <button class="tg-btn">Скачать</button>
+                                    </form>
+                                </div>
+                                
+                            </div>
+                        </article>
+                    </div>
+                    
+
+                </div>
+            </div>
+
+            
+
+        </div>
+    </div>
+</main>";s:4:"code";N;s:5:"title";s:18:"Документы";s:3:"url";s:10:"/documents";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

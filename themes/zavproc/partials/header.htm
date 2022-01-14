@@ -1,0 +1,70 @@
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 1
+categoryPage = "blog/category"
+
+==
+
+{% set categories = blogCategories.categories %}
+
+<div id="tg-wrapper" class="tg-wrapper">
+    <header id="tg-header" class="tg-header tg-haslayout">
+        <div class="clearfix"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="tg-logoandnoticeboard">
+                        <strong class="tg-logo"><a href="/"><img src="{{'assets/images/logo.png'|theme}}" alt="Прокуратура"></a></strong>
+                        
+                    </div>
+                    <div class="tg-navigationarea">
+                        <nav id="tg-nav" class="tg-nav">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigation" aria-expanded="false">
+                                    <span class="sr-only">Навигация</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div id="tg-navigation" class="collapse navbar-collapse tg-navigation">
+                                <ul> 
+                                    <!-- class="current-menu-item" -->
+                                    
+                                    {% if this.page.title == 'Главная'%}
+                                    <li class = "current-menu-item"><a href="{{ 'home'|page }}">Главная</a></li>
+                                    {% else %}
+                                    <li><a href="{{ 'home'|page }}">Главная</a></li>
+                                    {% endif %}
+
+                                    <li class="menu-item-has-children">
+                                        <a href="{{ 'blog/category'|page }}">Новости</a>
+                                        <ul class="sub-menu">
+                                            {% for category in categories %}
+                                            <li><a href="{{ category.url }}">{{ category.name }}</a></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </li>
+
+                                    {% if this.page.title == 'Документы'%}
+                                    <li class = "current-menu-item"><a href="{{ 'documents'|page }}">Документы</a></li>
+                                    {% else %}
+                                    <li><a href="{{ 'documents'|page }}">Документы</a></li>
+                                    {% endif %}
+
+                                    {% if this.page.title == 'Контактная информация'%}
+                                    <li class = "current-menu-item"><a href="{{ 'contact'|page }}">Контактная информация</a></li>
+                                    {% else %}
+                                    <li><a href="{{ 'contact'|page }}">Контактная информация</a></li>
+                                    {% endif %}
+
+                                    <li><a href="mailto:zav@ulproc.ru">Заяви о Коррупции</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>

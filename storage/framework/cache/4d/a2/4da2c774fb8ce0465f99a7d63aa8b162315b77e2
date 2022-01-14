@@ -1,0 +1,174 @@
+1623958373a:1:{s:10:"slider.htm";a:6:{s:8:"fileName";s:10:"slider.htm";s:7:"content";s:5136:"[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "news-top"
+postsPerPage = 10
+noPostsMessage = "Записей не найдено"
+sortOrder = "published_at desc"
+categoryPage = "blog/category"
+postPage = "blog/post"
+==
+{% set posts = blogPosts.posts %}
+
+<div class="clearfix"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="tg-homebannervtwo">
+                <div id="tg-homeslider" class="tg-homeslider owl-carousel tg-btnround tg-haslayout">
+                    {% for post in posts %}
+                    <div class="item">
+                        <figure>
+                            {% if post.featured_images|slice(0,1) == true %}
+                            {% for image in post.featured_images|slice(0,1) %}
+                            <img src="{{ image.path }}" alt="{{ post.title }}" style = "height: 415px; width: 873px; object-fit: cover;">
+                            {% endfor %}
+                            {% else %}
+                                <img src="{{'assets/images/noimage.jpg'|theme}}" alt=" " style="height: 415px; width: 873px; object-fit: cover;">
+                            {% endif %}
+                            <figcaption class="tg-slidercontent">
+                                <div class="tg-slidercontentbox">
+                                    <a class="tg-btn" href="{{ post.url }}">Читать далее...</a>
+                                    <div class="tg-titledescription">
+                                        <h1><b>{{ post.title }}</b></h1>
+                                        <div class="tg-description"><p>{{ post.excerpt }}</p></div>
+                                        <div class="tg-description" style="margin-top:10px;"><i>Опубликовано: {{ post.published_at|date ('d F Y', 'Europe/Ulyanovsk') }}</i></div>
+                                        <!-- <div class="tg-description"><i>Просмотрено: {{ post.views }}</i></div> -->
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="tg-noticeboardarea">
+                    
+                    <div class="tg-widget tg-widgetadmissionform">
+                        <div class="tg-widgetcontent">
+                            {% component 'contenteditor' file = "index/special_title.htm" fixture = "h3" %}
+                            <div class="tg-description">
+                                {% component 'contenteditor' file = "index/special_content.htm" fixture = "p" %}
+                            </div>
+                            <a class="bvi-open tg-btn tg-btnicon" href="#">
+                                <span>Переключиться</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tg-widget tg-widgetadmissionform">
+                        <div class="tg-widgetcontent">
+                            {% component 'contenteditor' file = "index/contacts_title.htm" fixture = "h3" %}
+                            <div class="tg-description">
+                                <span>
+                                    <i class="icon-phone-handset"> </i><b>Телефон:</b>
+                                    {% component 'contenteditor' file = "index/contacts_phone.htm" fixture = "span" %}
+                                </br>
+                                </span>
+                                <span>
+                                    <i class="icon-printer"> </i><b>Факс: </b>
+                                    {% component 'contenteditor' file = "index/contacts_fax.htm" fixture = "span" %}
+                                </br>
+                                </span>
+                                <span>
+                                    <i class="icon-location"> </i><b>Адрес: </b>
+                                    {% component 'contenteditor' file = "index/contacts_adress.htm" fixture = "span" %}
+                                </br>
+                                </span>
+                                <span>
+                                    <i class="icon-envelope"> </i><b>Skype: </b>
+                                    {% component 'contenteditor' file = "index/contacts_skype.htm" fixture = "span" %}
+                                </span>
+                            
+                            </div>
+                            
+                            <a class="tg-btn tg-btnicon" href="mailto:zav@ulproc.ru" style="margin-top: 20px;">
+                                <i class="icon-envelope"></i>
+                                <span>Написать письмо</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1623518211;s:6:"markup";s:4908:"{% set posts = blogPosts.posts %}
+
+<div class="clearfix"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="tg-homebannervtwo">
+                <div id="tg-homeslider" class="tg-homeslider owl-carousel tg-btnround tg-haslayout">
+                    {% for post in posts %}
+                    <div class="item">
+                        <figure>
+                            {% if post.featured_images|slice(0,1) == true %}
+                            {% for image in post.featured_images|slice(0,1) %}
+                            <img src="{{ image.path }}" alt="{{ post.title }}" style = "height: 415px; width: 873px; object-fit: cover;">
+                            {% endfor %}
+                            {% else %}
+                                <img src="{{'assets/images/noimage.jpg'|theme}}" alt=" " style="height: 415px; width: 873px; object-fit: cover;">
+                            {% endif %}
+                            <figcaption class="tg-slidercontent">
+                                <div class="tg-slidercontentbox">
+                                    <a class="tg-btn" href="{{ post.url }}">Читать далее...</a>
+                                    <div class="tg-titledescription">
+                                        <h1><b>{{ post.title }}</b></h1>
+                                        <div class="tg-description"><p>{{ post.excerpt }}</p></div>
+                                        <div class="tg-description" style="margin-top:10px;"><i>Опубликовано: {{ post.published_at|date ('d F Y', 'Europe/Ulyanovsk') }}</i></div>
+                                        <!-- <div class="tg-description"><i>Просмотрено: {{ post.views }}</i></div> -->
+                                    </div>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="tg-noticeboardarea">
+                    
+                    <div class="tg-widget tg-widgetadmissionform">
+                        <div class="tg-widgetcontent">
+                            {% component 'contenteditor' file = "index/special_title.htm" fixture = "h3" %}
+                            <div class="tg-description">
+                                {% component 'contenteditor' file = "index/special_content.htm" fixture = "p" %}
+                            </div>
+                            <a class="bvi-open tg-btn tg-btnicon" href="#">
+                                <span>Переключиться</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tg-widget tg-widgetadmissionform">
+                        <div class="tg-widgetcontent">
+                            {% component 'contenteditor' file = "index/contacts_title.htm" fixture = "h3" %}
+                            <div class="tg-description">
+                                <span>
+                                    <i class="icon-phone-handset"> </i><b>Телефон:</b>
+                                    {% component 'contenteditor' file = "index/contacts_phone.htm" fixture = "span" %}
+                                </br>
+                                </span>
+                                <span>
+                                    <i class="icon-printer"> </i><b>Факс: </b>
+                                    {% component 'contenteditor' file = "index/contacts_fax.htm" fixture = "span" %}
+                                </br>
+                                </span>
+                                <span>
+                                    <i class="icon-location"> </i><b>Адрес: </b>
+                                    {% component 'contenteditor' file = "index/contacts_adress.htm" fixture = "span" %}
+                                </br>
+                                </span>
+                                <span>
+                                    <i class="icon-envelope"> </i><b>Skype: </b>
+                                    {% component 'contenteditor' file = "index/contacts_skype.htm" fixture = "span" %}
+                                </span>
+                            
+                            </div>
+                            
+                            <a class="tg-btn tg-btnicon" href="mailto:zav@ulproc.ru" style="margin-top: 20px;">
+                                <i class="icon-envelope"></i>
+                                <span>Написать письмо</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>";s:4:"code";N;s:9:"blogPosts";a:7:{s:10:"pageNumber";s:11:"{{ :page }}";s:14:"categoryFilter";s:8:"news-top";s:12:"postsPerPage";s:2:"10";s:14:"noPostsMessage";s:34:"Записей не найдено";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:13:"blog/category";s:8:"postPage";s:9:"blog/post";}}}
